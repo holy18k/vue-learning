@@ -1,0 +1,12 @@
+组件之间的通信方式 http://www.php.cn/js-tutorial-397424.html
+
+1.
+   父组件包含子组件,父组件传参给子组件,子组件用 props 方式接收.
+
+2. 子组件到父组件的通信
+
+  (1).子组件主动发起 ===>> 由子组件的事件触发(@click='target') 在子组件中声明的事件.
+      this.$emit('childevent',this.texts)
+      父组件引用子组件的同时给绑定一个事件childevent = 'watchChildEvent' 来得到传递的参数
+
+  (2).
