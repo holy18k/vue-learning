@@ -1,5 +1,6 @@
-<template>
+<!--父子组件props简单传值方式(lion)-->
 
+<template>
   <div class="list-group">
     <Lion :vals="msg"></Lion>
   </div>
@@ -15,7 +16,7 @@
     name: 'Animal',
     data () {
       return {
-        msg: '父组件的数据,将传递给子组件11155551'
+        msg: '父组件的数据,将传递给子组件(父子组件简单的传参方式)'
       }
     }
   }

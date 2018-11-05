@@ -23,7 +23,7 @@
         >
           Community Chat
         </a>
-      </li>
+      </li>{}
       <li>
         <a
           href="https://twitter.com/vuejs"
@@ -78,14 +78,13 @@
       </li>
     </ul>
 
-    <h2>demo</h2>
+    <h2>Lessons</h2>
     <ul>
       <li>
-        <router-link :to="{path:'/communicate'}">组件通讯</router-link>
-        <router-link :to="{path:'/communicate'}">组件通讯</router-link>
-        <router-link :to="{path:'/communicate'}">组件通讯</router-link>
-        <router-link :to="{path:'/communicate'}">组件通讯</router-link>
-        <router-link :to="{path:'/communicate'}">组件通讯</router-link>
+        <router-link :to="{path:'/Animal'}">1.父子简单传值</router-link>
+        <router-link :to="{path:'/Father'}">2-1子组件主动触发</router-link>
+        <router-link :to="{path:'/Parent'}">2-2父组件主动触发</router-link>
+        <router-link :to="{path:'/Water'}">3 兄弟传参</router-link>
       </li>
     </ul>
   </div>

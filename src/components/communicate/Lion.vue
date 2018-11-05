@@ -8,7 +8,7 @@
   export default {
     props:{ //父组件传值 可以是一个数组，对象
       vals:{
-        type:String,//类型为字符窜
+        type:String,  //类型为字符窜
         default:"123" //可以设置默认值
       }
     }
